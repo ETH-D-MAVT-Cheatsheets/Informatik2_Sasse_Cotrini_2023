@@ -4,39 +4,42 @@
 \usepackage{empheq}
 \usepackage{pbox}
 \usepackage{booktabs}
-\usepackage{listings}
-\usepackage{xcolor}
-
-\definecolor{codegreen}{rgb}{0,0.7,0}
-\definecolor{codegray}{rgb}{0.5,0.5,0.5}
-\definecolor{codepurple}{rgb}{0.58,0,0.82}
-\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
-
-\lstdefinestyle{python_style}{
-    backgroundcolor=\color{backcolour},   
-    commentstyle=\color{codegreen},
-    keywordstyle=\color{magenta},
-    numberstyle=\tiny\color{codegray},
-    stringstyle=\color{codepurple},
-    basicstyle=\ttfamily\footnotesize,
-    breakatwhitespace=false,         
-    breaklines=true,                 
-    captionpos=b,                    
-    keepspaces=true,                 
-    numbers=left,                    
-    numbersep=5pt,                  
-    showspaces=false,                
-    showstringspaces=false,
-    showtabs=false,                  
-    tabsize=2
-}
 
 \lstset{style=python_style}
 
-\doctitle{... Cheatsheet}
-\author{AUTHOR \\ \vspace*{-0.2em}}
+\doctitle{Informatik 2 Cheatsheet}
+\author{Julian Lotzer – jlotzer@student.ethz.ch\\ 
+Daniel Steinhauser – dsteinhauser@student.ethz.ch\\
+Modified by:
+Christian Leser - cleser@ethz.ch
+\\ \vspace*{-0.2em}}
 
 \begin{document}
 \section{General Python}
-	\input{src/1_section/1_subsection.tex}
+	\input{src/1_general_python/1_reference_aliasing.tex}
+    \input{src/1_general_python/2_data_types.tex}
+    \input{src/1_general_python/3_input_output.tex}
+    \input{src/1_general_python/4_control_flows.tex}
+    \input{src/1_general_python/5_functions.tex}
+
+\section{Python Containers}
+    \input{src/2_containers/1_container_operations.tex}
+    \input{src/2_containers/2_sequences.tex}
+    \input{src/2_containers/3_collection.tex}
+
+\section{Numpy}
+
+\section{Pandas}
+
+\section{Matplotlib}
+
+\section{Algorithms}
+
+\section{Data Structures}
+
+\section{Programming Concepts}
+
+\section{Dynamic Programming (DP)}
+
+\section{Machine Learning (ML)}
 \end{document}

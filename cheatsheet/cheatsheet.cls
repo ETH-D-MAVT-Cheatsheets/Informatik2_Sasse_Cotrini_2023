@@ -34,6 +34,8 @@
 \RequirePackage[dvipsnames]{xcolor}
 \newcommand{\customColor}{Peach}
 \RequirePackage{tcolorbox}
+\RequirePackage{listings}
+\RequirePackage{xcolor}
 
 
 %% options
@@ -205,6 +207,38 @@
         \fontfamily{qcr}\selectfont #1%
     \end{center}%
 }
+
+%%CODE SNIPPET LAYOUT
+\definecolor{codegreen}{rgb}{0,0.7,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{python_style}{
+    language=Python,
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    identifierstyle=,
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=4pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=true,                  
+    tabsize=2,
+    xleftmargin=6pt,
+    aboveskip=1pt,
+    belowskip=1pt
+}
+
+%\renewcommand\lstinputlisting{}
 
 \renewcommand{\normalsize}{\fontsize{8}{9}\selectfont} % changes normalsize to small % dirty
 \renewcommand{\familydefault}{\sfdefault}

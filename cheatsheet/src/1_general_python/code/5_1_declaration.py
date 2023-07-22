@@ -1,0 +1,3 @@
+def function(arg1, arg2):
+  ...
+  return value

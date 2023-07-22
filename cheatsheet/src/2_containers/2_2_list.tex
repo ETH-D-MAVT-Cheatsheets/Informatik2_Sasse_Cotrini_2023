@@ -1,0 +1,26 @@
+\subsubsection{List (mutable)}
+{\centering\underline{\textbf{Initialisation of a list}} \par}
+\begin{lstlisting}
+l = [1, 3, "hi", -4]
+\end{lstlisting}
+
+{\centering\underline{\textbf{Common List Operations}} \par}
+\lstinputlisting{src/2_containers/code/2_2_list_operation.py}
+
+{\centering\underline{\textbf{List Comprehension}} \par}
+Apply a function $f(x)$ to all items in list l:
+\begin{lstlisting}
+l2 = [f(x) for x in l] #z.g. 2*x for f(x)
+\end{lstlisting}
+Apply a function $f(x)$ to a range:
+\begin{lstlisting}
+r2 = [f(x) for x in range(1,6)]
+\end{lstlisting}
+Apply a function $f(x)$ only to items in list l that satisfy $g(x)$ (filter):
+\begin{lstlisting}
+l3 = [f(x) for x in l if g(x)]
+\end{lstlisting}
+Example: Read a sequence of numbers:
+\begin{lstlisting}
+l = [int(x) for x in input("Input: ").split()]
+\end{lstlisting}
