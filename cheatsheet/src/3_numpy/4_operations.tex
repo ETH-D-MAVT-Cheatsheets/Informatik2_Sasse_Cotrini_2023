@@ -1,0 +1,83 @@
+\subsection{Numpy Array operations}
+{\centering\underline{\textbf{Common numpy array operations}} \par}
+• Return the number of elements:
+a = np.arange(10)
+a.size() #=10
+• Accessing elements (1D array)
+a[5] #=5
+• Accessing elements (2D array):
+A = np.array([[1,2,3],[4,5,6]])
+A[1,2] #=A[1][2]=6
+A[:,2] #array([3,6])
+A[1,:] #array([4,5,6])
+
+{\centering\underline{\textbf{Slicing}} \par}
+• Slicing is dependent on the dimensions of the matrix. For 1D arrays:
+A = np.arange(10) #[0,1,2,3,4,5,6,7,8,9]
+A[2:5:2] #array([2,4])
+• For 2D arrays (matrices):
+A = np.array([[1,2,3],
+	     [4,5,6],
+              [7,8,9]])
+A[0:2,1:3] #array([2,3],
+                   [5,6])
+
+{\centering\underline{\textbf{Statistics}} \par}
+a = np.linspace(-4,-2,3) #array([-4,-3,-2])
+• Minimum of all elements:
+a.min() #-4 
+• Maximum of all elements:
+a.max() #-2
+• Sum of all elements:
+a.sum() #-9 
+• Average of all elements:
+np.mean(a) #-3
+• Standard deviation of all elements:
+np.std(a) #0.81 
+
+{\centering\underline{\textbf{Mathematical Operations}} \par}
+• Generally mathematical operations are carried out element-wise:
+A = np.array([[2,3,4],[6,7,6]])
+B = np.array([[1,9,1],[2,3,9]])
+A+1
+#array([[3,4,5],
+       [7,8,7]])
+A * 2 
+#array([[4,6,8],
+       [12,14,12]])
+A ** 4 
+#array([[16,81,256],
+       [1296,2401,1296]])
+np.sin(A) 
+#array([[0.909,0.141,-0.756],
+       [-0.279,0.657,-0.279]])
+A + B 
+#array([[3,12,5],
+        [8,10,15]])
+A * B 
+#array([[2,27,4],
+       [12.21,54]])
+np.sum(A, axis = 0) 
+#= A.sum(axis = 0) -> array([8,10,10])
+np.sum(A, axis = 1) 
+#= A.sum(axis = 1) -> array([9,19])
+
+• Given that the dimensionality of two matrices is correct, one is able to multiply them using @:
+A = np.array([[2,3,4],[6,7,6]])
+A @ np.array([[1, 4], [3, 4], [4,6]]) 
+#array([[27, 44], 
+        [51, 88]])
+• Using the dot() function to multiply two matrices:
+A.dot(np.array([[1,4],[3,4],[4,6]]) 
+#array([[27, 44], 
+        [51, 88]])
+• Using the dot() function to find the scalar product of two vectors:
+a = np.array([1,2,3])
+b = np.array([3,4,6])
+a.dot(b) #29
+
+{\centering\underline{\textbf{Filtering}} \par}
+• Filter a numpy array using the subscript operator:
+a = np.arange(7) #array([0,1,2,3,4,5,6])
+f = a % 2 == 0
+a[f] #array([0,2,4,6])
