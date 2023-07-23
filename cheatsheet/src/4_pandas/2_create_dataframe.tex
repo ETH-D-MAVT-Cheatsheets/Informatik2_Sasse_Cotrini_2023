@@ -1,0 +1,5 @@
+\subsection{read CSV file into dataframe}
+\begin{lstlisting}
+climate = pd.read_csv("climate.csv", sep=",", index_col=0, usecols=["time", ...])
+#"sep" -> what characters values in the csv file are separated by. "index_col" -> what the index column will be. "usecols" -> what columns of the csv data will be #selected.
+\end{lstlisting}
