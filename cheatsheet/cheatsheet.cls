@@ -29,6 +29,7 @@
 %% packages
 \RequirePackage{multicol}
 \RequirePackage{amsmath}
+\RequirePackage{amssymb}
 \RequirePackage{changepage}
 \RequirePackage{etoolbox} % check ifempty
 \RequirePackage[dvipsnames]{xcolor}

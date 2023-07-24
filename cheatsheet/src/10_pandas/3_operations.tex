@@ -2,7 +2,7 @@
 A dataframe can be thought of as a 2D list (list within a list) supporting access in more semantic, meaningful ways compared to using indices. Visualized, a dataframe may look something like the following: 
 
 {\centering
-\includegraphics[width=0.8\linewidth]{src/4_pandas/images/pd_dataframe_index.png}\\
+\includegraphics[width=0.8\linewidth]{src/10_pandas/images/pd_dataframe_index.png}\\
 table of the climate, entries accessible via index \par}
 
 The leftmost column is known as the "index column".  
@@ -12,7 +12,7 @@ The leftmost column is known as the "index column".
 climate2 = climate.set_index("time") #creates copy
 \end{lstlisting}
 {\centering
-\includegraphics[width = 0.8\linewidth]{src/4_pandas/images/pd_dataframe_time.png}\\
+\includegraphics[width = 0.8\linewidth]{src/10_pandas/images/pd_dataframe_time.png}\\
 table of the climate, entries accessible via time \par}
 
 {\centering\underline{\textbf{Rename Columns}} \par}
@@ -21,7 +21,9 @@ climate = climate.rename(columns={"old_index_name":"new_index_name", ...})
 #renames the "old_index_name" column to "new_index_name"
 \end{lstlisting}
 rename all columns (len(data.columns) = number of colums must be true)
-\begin{lstlisting}data.columns = ["Date", "January", "February", …]\end{lstlisting}
+\begin{lstlisting}
+data.columns = ["Date", "January", "February", ...]
+\end{lstlisting}
 
 {\centering\underline{\textbf{Access Dataframe Elements}} \par}
 Access a single column (type: Series):
