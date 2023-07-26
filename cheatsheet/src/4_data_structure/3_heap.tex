@@ -1,4 +1,5 @@
 \subsubsection{(Max) Heaps}
+    Heaps are only visualised as trees while they are stored as arrays\\
     Useful for quick access to max (/ min) value
     \begin{itemize}
         \item complete binary tree (see \ref{sec_tree_terminology} Tree terminology)
@@ -42,7 +43,7 @@ def height(a):
         \lstinputlisting{src/4_data_structure/code/heap_insert.py}
 
     {\centering\underline{\textbf{Remove Max Value}} \par}
-        Change the first and last entry in the array, then delete the last value. Now, the max value does not exist any more.
+        Change the first and last entry in the array, then delete the last entry. Now, the max value does not exist any more.
         \includegraphics[width = \linewidth]{src/4_data_structure/images/heap_remove_max.png}
         Reestablish the Heap condition by applying Sift Down.
         \lstinputlisting{src/4_data_structure/code/heap_remove_max.py}
