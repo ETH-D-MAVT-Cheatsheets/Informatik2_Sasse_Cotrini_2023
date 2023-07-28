@@ -45,33 +45,18 @@ l = [int(x) for x in input("Input: ").split()]
         \end{minipage}
 
         \lstinputlisting{src/3_containers/code/2_2_1_selection_sort.py}
-        
-        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.42\linewidth} | p{0.15\linewidth} |}
-            \hline
-            Case & Description & Runtime\\
-            \hline \hline
-            Worst-case & A is reverse sorted & $\Theta(n^2)$ \\
-            \hline
-            Average-case & - & $\Theta(n^2)$ \\
-            \hline
-            Best-case & A is already sorted & $\Theta(n)$ \\
-            \hline
-        \end{tabular*}
 
     {\centering\underline{\textbf{Insertion Sort}} \par}
-        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.42\linewidth} | p{0.15\linewidth} |}
-            \hline
-            Case & Description & Runtime\\
-            \hline \hline
-            Worst-case &  &  \\
-            \hline
-            Average-case &  &  \\
-            \hline
-            Best-case &  &  \\
-            \hline
-        \end{tabular*}
+        \begin{minipage}{0.64\linewidth}
+            \lstinputlisting{src/3_containers/code/2_2_1_insertion_sort.py}
+        \end{minipage}
+        \begin{minipage}{0.34\linewidth}
+            \includegraphics[width = \linewidth]{src/3_containers/images/insertion_sort.png}
+        \end{minipage}
 
     {\centering\underline{\textbf{Bubble Sort}} \par}
+        {\centering \includegraphics*[width = 0.8\linewidth]{src/3_containers/images/bubble_sort.png} \par}
+        \lstinputlisting{src/3_containers/code/2_2_1_bubble_sort.py}
         
     {\centering\underline{\textbf{Mergesort (Divide and Conquer)}} \par}
         Requires $\Theta(n)$ additional storage\\
@@ -79,59 +64,18 @@ l = [int(x) for x in input("Input: ").split()]
         \fcolorbox{black}{cyan}{greater value}  \fcolorbox{black}{green}{smaller value}
 
         \lstinputlisting{src/3_containers/code/2_2_1_mergesort.py}
-
-        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.35\linewidth} | p{0.22\linewidth} |}
-            \hline
-            Case & Description & Runtime\\
-            \hline \hline
-            All cases & - & $\Theta (n \cdot \log(n))$ \\
-            \hline
-        \end{tabular*}
     
     {\centering\underline{\textbf{Quick Sort (Divide and Conquer)}} \par}
         Requires no additional storage\\
         \includegraphics[width = \linewidth]{src/3_containers/images/quicksort.png}
         \fcolorbox{black}{ProcessBlue}{Pivot}  \fcolorbox{black}{CarnationPink}{Pivot is now at correct position}
         \lstinputlisting{src/3_containers/code/2_2_1_quick_sort.py}
-        \begin{tabular*}{\linewidth}{| p{0.21\linewidth} | p{0.39\linewidth} | p{0.22\linewidth} |}
-            \hline
-            Case & Description & Runtime\\
-            \hline \hline
-            Worst-case & Pivot always min/max value & $\Theta(n^2)$ \\
-            \hline
-            Average-case & Pivot chosen randomly & $\Theta(n \cdot \log(n))$ \\
-            \hline
-            Best-case & Pivot always median value & $\Theta(n \cdot \log(n))$ \\
-            \hline
-        \end{tabular*}
 
-\subsubsection{Searching Algorithms for Lists}
+\subsubsection{Search Algorithms for Lists}
     {\centering\underline{\textbf{Linear Search}} \par}
         \includegraphics*[width = 0.8\linewidth]{src/3_containers/images/linear_search.png}
         \lstinputlisting{src/3_containers/code/2_2_2_linear_search.py}
-        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.42\linewidth} | p{0.15\linewidth} |}
-            \hline
-            Case & Description & Runtime\\
-            \hline \hline
-            Worst-case & b = a[n] is at end of array & $\Theta(n)$ \\
-            \hline
-            Average-case & - & $\Theta(n)$ \\
-            \hline
-            Best-case & b = a[0] at begining of array & $\Theta(1)$ \\
-            \hline
-        \end{tabular*}
 
     {\centering\underline{\textbf{Binary Search}} \par}
         \includegraphics*[width = 0.8\linewidth]{src/3_containers/images/binary_search.png}
         \lstinputlisting{src/3_containers/code/2_2_2_binary_search.py}
-        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.42\linewidth} | p{0.15\linewidth} |}
-            \hline
-            Case & Description & Runtime\\
-            \hline \hline
-            Worst-case & b is max / min value & $\Theta(\log(n))$ \\
-            \hline
-            Average-case & - & $\Theta(\log(n))$ \\
-            \hline
-            Best-case & b is median value & $\Theta(1)$ \\
-            \hline
-        \end{tabular*}

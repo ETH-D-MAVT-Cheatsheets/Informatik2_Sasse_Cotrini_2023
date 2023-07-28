@@ -1,0 +1,233 @@
+\subsection{Runtime of specific algorithms}
+    \subsubsection{List}
+        Search element: see \ref{sec_search_list} Search Algorithms on Lists
+        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.42\linewidth} | p{0.15\linewidth} |}
+            \hline
+            Operation & Runtime\\
+            \hline \hline
+            Index Access &  $\mathcal{O}(1)$ \\
+            \hline
+            Insertion & $\mathcal{O}(n)$ \\
+            \hline
+            Removal & $\mathcal{O}(n)$ \\
+            \hline
+            Remove last element & $\mathcal{O}(1)$\\
+            \hline
+        \end{tabular*}
+
+    \subsubsection{Sorting Algorithms on Lists}
+        {\centering\underline{\textbf{Selection Sort}} \par}
+        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.42\linewidth} | p{0.15\linewidth} |}
+            \hline
+            Case & Description & Runtime\\
+            \hline \hline
+            Worst-case & A is reverse sorted & $\Theta(n^2)$ \\
+            \hline
+            Average-case & - & $\Theta(n^2)$ \\
+            \hline
+            Best-case & A is already sorted & $\Theta(n)$ \\
+            \hline
+        \end{tabular*}
+
+        {\centering\underline{\textbf{Insertion Sort}} \par}
+        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.42\linewidth} | p{0.15\linewidth} |}
+            \hline
+            Case & Description & Runtime\\
+            \hline \hline
+            Worst-case & A is reverse sorted & $\Theta(n^2)$ \\
+            \hline
+            Average-case & - & $\Theta(n^2)$ \\
+            \hline
+            Best-case & A is already sorted & $\Theta(n)$ \\
+            \hline
+        \end{tabular*}
+
+        {\centering\underline{\textbf{Bubble Sort}} \par}
+        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.42\linewidth} | p{0.15\linewidth} |}
+            \hline
+            Case & Description & Runtime\\
+            \hline \hline
+            Worst-case &  &  \\
+            \hline
+            Average-case &  &  \\
+            \hline
+            Best-case &  &  \\
+            \hline
+        \end{tabular*}
+
+        {\centering\underline{\textbf{Mergesort}} \par}
+        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.35\linewidth} | p{0.22\linewidth} |}
+            \hline
+            Case & Description & Runtime\\
+            \hline \hline
+            All cases & - & $\Theta (n \cdot \log(n))$ \\
+            \hline
+        \end{tabular*}
+
+        {\centering\underline{\textbf{Quick Sort}} \par}
+        \begin{tabular*}{\linewidth}{| p{0.21\linewidth} | p{0.39\linewidth} | p{0.22\linewidth} |}
+            \hline
+            Case & Description & Runtime\\
+            \hline \hline
+            Worst-case & Pivot always min/max value & $\Theta(n^2)$ \\
+            \hline
+            Average-case & Pivot chosen randomly & $\Theta(n \cdot \log(n))$ \\
+            \hline
+            Best-case & Pivot always median value & $\Theta(n \cdot \log(n))$ \\
+            \hline
+        \end{tabular*}
+
+        {\centering\underline{\textbf{Heap Sort}} \par}
+        heapify(a) and HeapSort(a)\\
+        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.35\linewidth} | p{0.22\linewidth} |}
+            \hline
+            Case & Description & Runtime\\
+            \hline \hline
+            All cases & - & $\Theta (n \cdot \log(n))$ \\
+            \hline
+        \end{tabular*}
+
+
+    \subsubsection{Search Algorithms on Lists} \label{sec_search_list}
+        {\centering\underline{\textbf{Linear Search}} \par}
+        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.42\linewidth} | p{0.15\linewidth} |}
+            \hline
+            Case & Description & Runtime\\
+            \hline \hline
+            Worst-case & b = a[n] is at end of array & $\Theta(n)$ \\
+            \hline
+            Average-case & - & $\Theta(n)$ \\
+            \hline
+            Best-case & b = a[0] at begining of array & $\Theta(1)$ \\
+            \hline
+        \end{tabular*}
+
+        {\centering\underline{\textbf{Binary Search}} \par}
+        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.42\linewidth} | p{0.15\linewidth} |}
+            \hline
+            Case & Description & Runtime\\
+            \hline \hline
+            Worst-case & b is max / min value & $\Theta(\log(n))$ \\
+            \hline
+            Average-case & - & $\Theta(\log(n))$ \\
+            \hline
+            Best-case & b is median value & $\Theta(1)$ \\
+            \hline
+        \end{tabular*}
+
+    \subsubsection{Binary Search Tree}
+        {\centering\underline{\textbf{Search Node}} \par}
+        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.42\linewidth} | p{0.15\linewidth} |}
+            \hline
+            Case & Description & Runtime\\
+            \hline \hline
+            Worst-case & Tree is degenerated & $\Theta(n)$ \\
+            \hline
+            Average-case & Tree is balanced & $\Theta(\log(n))$ \\
+            \hline
+            Best-case & key is at root & $\Theta(1)$ \\
+            \hline
+        \end{tabular*}
+
+        {\centering\underline{\textbf{Insert Node}} \par}
+        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.42\linewidth} | p{0.15\linewidth} |}
+            \hline
+            Case & Description & Runtime\\
+            \hline \hline
+            Worst-case & Tree is degenerated & $\Theta(n)$ \\
+            \hline
+            Average-case & Tree is balanced & $\Theta(\log(n))$ \\
+            \hline
+            Best-case & Tree is empty & $\Theta(1)$ \\
+            \hline
+        \end{tabular*}
+
+        {\centering\underline{\textbf{Remove Node}} \par}
+        Runtime is determined by the Runtime of 'Find symmetric successor'. 'h' is the height of the Tree\\
+        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.35\linewidth} | p{0.22\linewidth} |}
+            \hline
+            Case & Description & Runtime\\
+            \hline \hline
+            All cases & - & $\mathcal{O}(h)$ \\
+            \hline
+        \end{tabular*}
+
+        {\centering\underline{\textbf{Traversal}} \par}
+        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.35\linewidth} | p{0.22\linewidth} |}
+            \hline
+            Case & Description & Runtime\\
+            \hline \hline
+            All cases & - & $\Theta (n)$ \\
+            \hline
+        \end{tabular*}
+        
+    \subsubsection{Heap}
+        {\centering\underline{\textbf{Insert Element}} \par}
+        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.35\linewidth} | p{0.22\linewidth} |}
+            \hline
+            Case & Description & Runtime\\
+            \hline \hline
+            Worst case & log(n) swaps & $\mathcal{O}(\log(n))$ \\
+            \hline
+        \end{tabular*}
+
+        {\centering\underline{\textbf{Remove Element}} \par}
+        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.35\linewidth} | p{0.22\linewidth} |}
+            \hline
+            Case & Description & Runtime\\
+            \hline \hline
+            Worst case & log(n) swaps & $\mathcal{O}(\log(n))$ \\
+            \hline
+        \end{tabular*}
+
+        {\centering\underline{\textbf{Heapify}} \par}
+        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.35\linewidth} | p{0.22\linewidth} |}
+            \hline
+            Case & Description & Runtime\\
+            \hline \hline
+            All cases & - & $\Theta(n)$ \\
+            \hline
+        \end{tabular*}
+
+        {\centering\underline{\textbf{Sort a heap}} \par}
+        Used in 'Heapsort'. SiftDown traverses log(n) nodes and is called n times\\
+        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.35\linewidth} | p{0.22\linewidth} |}
+            \hline
+            Case & Description & Runtime\\
+            \hline \hline
+            All cases & - & $\Theta(n \cdot \log(n))$ \\
+            \hline
+        \end{tabular*}
+    
+    \subsubsection{Linked List}
+        \begin{tabular*}{\linewidth}{| p{0.4\linewidth} | p{0.48\linewidth} |}
+            \hline
+            Operation & Runtime\\
+            \hline \hline
+            Access &  $\mathcal{O}(n)$ \\
+            \hline
+            Search &  $\mathcal{O}(n)$ \\
+            \hline
+            Insertion & $\mathcal{O}(n)$ \\
+            \hline
+            Insertion at head & $\mathcal{O}(1)$ \\
+            \hline
+            Removal & $\mathcal{O}(n)$ \\
+            \hline
+            Removal at head & $\mathcal{O}(1)$\\
+            \hline
+        \end{tabular*}
+    
+    \subsubsection{Hash Table}
+        \begin{tabular*}{\linewidth}{| p{0.25\linewidth} | p{0.42\linewidth} | p{0.15\linewidth} |}
+            \hline
+            Operation & Best Case & Worst Case\\
+            \hline \hline
+            Search & $\mathcal{O}(1)$ & $\mathcal{O}(n)$ \\
+            \hline
+            Insertion & $\mathcal{O}(1)$ & $\mathcal{O}(n)$ \\
+            \hline
+            Removal & $\mathcal{O}(1)$ & $\mathcal{O}(n)$ \\
+            \hline
+
+        \end{tabular*}
