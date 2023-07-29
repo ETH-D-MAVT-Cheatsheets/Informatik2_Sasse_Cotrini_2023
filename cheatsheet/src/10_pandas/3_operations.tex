@@ -1,20 +1,13 @@
-\subsection*{Pandas Dataframe operations}
-A dataframe can be thought of as a 2D list (list within a list) supporting access in more semantic, meaningful ways compared to using indices. Visualized, a dataframe may look something like the following: 
+\subsection{Pandas Dataframe operations}
+A dataframe can be thought of as a list within a list supporting access in more meaningful ways compared to using indices.
 
-{\centering
-\includegraphics[width=0.8\linewidth]{src/10_pandas/images/pd_dataframe_index.png}\\
-table of the climate, entries accessible via index \par}
-
-The leftmost column is known as the "index column".  
-
-{\centering\underline{\textbf{Change the Index Column}} \par}
-\begin{lstlisting}
-climate2 = climate.set_index("time") #creates copy
-\end{lstlisting}
-{\centering
-\includegraphics[width = 0.8\linewidth]{src/10_pandas/images/pd_dataframe_time.png}\\
-table of the climate, entries accessible via time \par}
-
+\begin{tabular*}{\linewidth}{m{0.45\linewidth} | m{0.45\linewidth} |}
+    \textbf{Example dataframe} & \textbf{Change Index Column}\\
+    \hline
+    \includegraphics[width=\linewidth]{src/10_pandas/images/pd_dataframe_index.png} & \includegraphics[width = 0.8\linewidth]{src/10_pandas/images/pd_dataframe_time.png}\\
+    table of the climate, entries accessible via index. The leftmost column is known as the "index column". & \lstinputlisting{src/10_pandas/code/change_index.py} table of the climate, entries accessible via time
+\end{tabular*}
+ 
 {\centering\underline{\textbf{Rename Columns}} \par}
 \begin{lstlisting}
 climate = climate.rename(columns={"old_index_name":"new_index_name", ...})
@@ -26,42 +19,7 @@ data.columns = ["Date", "January", "February", ...]
 \end{lstlisting}
 
 {\centering\underline{\textbf{Access Dataframe Elements}} \par}
-Access a single column (type: Series):
-\begin{lstlisting}
-climate["feb"]
-#gets the column "feb"
-\end{lstlisting}
-Access multiple columns (type: Dataframe):
-\begin{lstlisting}
-climate[["jan", "mar"]]
-#gets the columns "jan" and "mar"
-\end{lstlisting}
-Access a single row, using an index (type: Series):
-\begin{lstlisting}
-climate.iloc[3]
-#gets row 3
-\end{lstlisting}
-Multiple rows (type: Dataframe):
-\begin{lstlisting}
-Climate.iloc[1:4]
-#gets rows 1 to 3
-\end{lstlisting}
-Access to a subtable using indices (type: Dataframe):
-\begin{lstlisting}
-climate.iloc[4:7,1:2]
-#gets rows 4,7 with data only from column 1
-\end{lstlisting}
-Access to a subtable using index column values and column name (type: Dataframe):
-\begin{lstlisting}
-climate2 = climate.set_index("time")
-climate2.loc[1864:1868,"jan":"mar"]
-#includes the rows labeled with 1864 until and including #1868, the columns from "jan" until and including "mar"
-\end{lstlisting}
-Access to a single element:
-\begin{lstlisting}
-climate["jan"][3]
-#gets the element in column "jan" in row 3
-\end{lstlisting}
+\lstinputlisting{src/10_pandas/code/access_elements.py}
 
 {\centering\underline{\textbf{Filter Dataframes}} \par}
 Filter rows:
