@@ -1,4 +1,4 @@
-climate["jan"][3] #Access single element
+climate["jan"].iloc[3] #Access single element
 climate["feb"] #Access single column (type: Series)
 climate[["jan", "mar"]] #multiple columns (Dataframe)
 climate.iloc[3] #Access single row (Series)

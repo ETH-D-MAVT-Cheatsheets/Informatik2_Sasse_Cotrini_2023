@@ -26,7 +26,7 @@
         For all functions: $\lim\limits_{n \rightarrow \infty}$
         \begin{align*}
             &log(n) < \sqrt[a]{n} < n < n \cdot \log(n) < n^2 < a^n < n! < n^n\\
-            &n = \mathcal{O}(n^2) \rightarrow f(n) = \mathcal{O}(g(n)) \rightarrow \lim\limits_{n \rightarrow \infty} \frac{f(n)}{g(n)} = 0
+            &n = \mathcal{O}(n^2) \rightarrow f(n) = \mathcal{O}(g(n)) \rightarrow \lim\limits_{n \rightarrow \infty} \frac{f(n)}{g(n)} \leq C, C \in \mathbb{R}
         \end{align*}
         Useful conversions:\\
         \begin{minipage}{0.29\linewidth}
@@ -46,7 +46,7 @@
     
     \subsubsection{Code Runtime Analysis}
         Assumptions of 'time cost':
-        \lstinputlisting{src/5_runtime_analysis/code/2_time_cost.py}
+        \lstinputlisting{src/6_runtime_analysis/code/2_time_cost.py}
 
         Example of runtime analysis on selection sort:
         \begin{align*}
