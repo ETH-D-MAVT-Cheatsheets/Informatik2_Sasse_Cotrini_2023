@@ -1,0 +1,26 @@
+\subsubsection{Dictionary (associative)}
+See \ref{section_sequence_operations} Sequence operations for 'enumerate' and 'zip'\\
+{\centering\underline{\textbf{Initialise a Dictionary with \{\}}} \par}
+A dictionary consists of \textbf{tuples (key, value)} as items. For that reason, one can think of it as a list of tuples (Which it is not in reality)
+\lstinputlisting{src/3_containers/code/3_2_initialise_dict.py}
+
+{\centering\underline{\textbf{Common Dictionary Operations}} \par}
+\lstinputlisting{src/3_containers/code/3_2_dict_operations.py}
+
+{\centering\underline{\textbf{Iterate over a Dictionary}} \par}
+\lstinputlisting{src/3_containers/code/3_2_iterate_over_dict.py}
+
+{\centering\underline{\textbf{Dictionary Comprehension}} \par}
+Transform a set into a dictionary by applying $f(x)$ and $g(x)$ on every element in the set:
+\begin{lstlisting}
+d3 = {f(x):g(x) for x in s} #s being a set
+d4 = {f(x):g(y) for x, y in z.items()} #z being a dict
+\end{lstlisting}
+Transform a set into a dictionary, only if the element satisfies h(x):
+\begin{lstlisting}
+d5 = {f(x):g(x) for x in s if h(x)}
+\end{lstlisting}
+Example: Multiply the value of every odd key in a dictionary by 2:
+\begin{lstlisting}
+d6 = {k:2*v for k, v in d.items() if k % 2 == 1}
+\end{lstlisting}

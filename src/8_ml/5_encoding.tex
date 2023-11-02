@@ -1,0 +1,76 @@
+\subsection{Encoding}
+    {\centering \underline{\textbf{Ordinal Encoding}} \par}
+    Assign number to a string in a dataset:\\
+    \textcolor{red}{red} $\rightarrow$ \textcolor{red}{one}, \textcolor{green}{green} $\rightarrow$ \textcolor{green}{2}, \textcolor{blue}{blue} $\rightarrow$ \textcolor{blue}{3}\\
+    \begin{itemize}
+        \item[+] easy, efficient
+        \item[--] In our example, the 'distance' between "red" and "blue" might seem bigger than between "green" and "blue"
+    \end{itemize}
+
+    {\centering \underline{\textbf{Mean Encoding}} \par}
+    \begin{minipage}{0.29\linewidth}
+        \begin{tabular*}{\linewidth}{c | c}
+            \textcolor{red}{red} & True\\
+            \hline
+            \textcolor{red}{red} & False\\
+            \hline
+            \textcolor{red}{red} & True\\
+            \hline
+            \textcolor{green}{green} & False\\
+            \hline
+            \textcolor{green}{green} & False        
+        \end{tabular*}
+    \end{minipage}
+    \begin{minipage}{0.69\linewidth}
+        \begin{align*}
+            \text{mean}_{\text{\textcolor{red}{red}}} &= \frac{\# (\text{\textcolor{red}{red} and True})}{\# \text{\textcolor{red}{red}}}\\
+            &= \frac{2}{3}\\
+            \text{mean}_{\text{\textcolor{green}{green}}} &= 0
+        \end{align*}
+    \end{minipage}
+
+    \begin{itemize}
+        \item[+] meaning behind the encoding (probability of occurence)
+        \item[--] ML Algorithm can access this probability $\rightarrow$ Overfitting
+    \end{itemize}
+    
+
+    {\centering \underline{\textbf{One-Hot Encoding}} \par}
+    \begin{minipage}{0.39\linewidth}
+        \begin{tabular*}{\linewidth}{c | c}
+            Color & On?\\
+            \hline \hline
+            \textcolor{red}{red} & True\\
+            \hline
+            \textcolor{red}{red} & False\\
+            \hline
+            \textcolor{red}{red} & True\\
+            \hline
+            \textcolor{green}{green} & False\\
+            \hline
+            \textcolor{green}{green} & False        
+        \end{tabular*}
+    \end{minipage}
+    \begin{minipage}{0.09\linewidth}
+        \huge $\rightarrow$
+    \end{minipage}
+    \begin{minipage}{0.49\linewidth}
+        \begin{tabular*}{\linewidth}{c | c | c}
+            \textcolor{red}{red} & \textcolor{green}{green} & On?\\
+            \hline \hline
+            1 & 0 & True\\
+            \hline
+            1 & 0 & False\\
+            \hline
+            1 & 0 & True\\
+            \hline
+            0 & 1 & False\\
+            \hline
+            0 & 1 & False        
+        \end{tabular*}
+    \end{minipage}
+    \begin{itemize}
+        \item[+] Same distance between all properties
+        \item[--] Tables can become very big, leading to slower training
+    \end{itemize}
+    

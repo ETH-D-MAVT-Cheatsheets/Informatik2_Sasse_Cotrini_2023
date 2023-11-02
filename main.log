@@ -1,0 +1,1491 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  2 NOV 2023 10:44
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (./cheatsheet.cls
+Document Class: cheatsheet 2020/09/14 LaTeX class for cheatsheets by Micha Boss
+hart
+(/opt/texlive/texdir/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/opt/texlive/texdir/texmf-dist/tex/latex/extsizes/size8.clo
+File: size8.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen140
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen141
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count193
+\mult@box=\box51
+\multicol@leftmargin=\dimen142
+\c@unbalance=\count194
+\c@collectmore=\count195
+\doublecol@number=\count196
+\multicoltolerance=\count197
+\multicolpretolerance=\count198
+\full@width=\dimen143
+\page@free=\dimen144
+\premulticols=\dimen145
+\postmulticols=\dimen146
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box52
+\last@line=\box53
+\maxbalancingoverflow=\dimen147
+\mult@rightbox=\box54
+\mult@grightbox=\box55
+\mult@firstbox=\box56
+\mult@gfirstbox=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\c@minrows=\count199
+\c@columnbadness=\count266
+\c@finalcolumnbadness=\count267
+\last@try=\dimen148
+\multicolovershoot=\dimen149
+\multicolundershoot=\dimen150
+\mult@nat@firstbox=\box94
+\colbreak@box=\box95
+\mc@col@check@num=\count268
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen151
+))
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen152
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count269
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count270
+\leftroot@=\count271
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count272
+\DOTSCASE@=\count273
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box96
+\strutbox@=\box97
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen153
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count274
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count275
+\dotsspace@=\muskip16
+\c@parentequation=\count276
+\dspbrk@lvl=\count277
+\tag@help=\toks17
+\row@=\count278
+\column@=\count279
+\maxfields@=\count280
+\andhelp@=\toks18
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
+\@envbody=\toks19
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/opt/texlive/texdir/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count281
+\cp@tempcnt=\count282
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count283
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(/opt/texlive/texdir/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2023/02/12 version 6.0.1 text color boxes
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks21
+\pgfutil@tempdima=\dimen160
+\pgfutil@tempdimb=\dimen161
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box98
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltere
+d.code.tex
+\pgfkeys@tmptoks=\toks25
+))
+\pgf@x=\dimen164
+\pgf@y=\dimen165
+\pgf@xa=\dimen166
+\pgf@ya=\dimen167
+\pgf@xb=\dimen168
+\pgf@yb=\dimen169
+\pgf@xc=\dimen170
+\pgf@yc=\dimen171
+\pgf@xd=\dimen172
+\pgf@yd=\dimen173
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count284
+\c@pgf@countb=\count285
+\c@pgf@countc=\count286
+\c@pgf@countd=\count287
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+\pgf@sys@id@count=\count288
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.d
+ef
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code
+.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count289
+\pgfsyssoftpath@bigbuffer@items=\count290
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code
+.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen174
+\pgfmath@count=\count291
+\pgfmath@box=\box99
+\pgfmath@toks=\toks29
+\pgfmath@stack@operand=\toks30
+\pgfmath@stack@operation=\toks31
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.cod
+e.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonome
+tric.code.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.co
+de.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compariso
+n.code.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code
+.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.cod
+e.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code
+.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerar
+ithmetics.code.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count292
+))
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.t
+ex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen175
+\pgf@picmaxx=\dimen176
+\pgf@picminy=\dimen177
+\pgf@picmaxy=\dimen178
+\pgf@pathminx=\dimen179
+\pgf@pathmaxx=\dimen180
+\pgf@pathminy=\dimen181
+\pgf@pathmaxy=\dimen182
+\pgf@xx=\dimen183
+\pgf@xy=\dimen184
+\pgf@yx=\dimen185
+\pgf@yy=\dimen186
+\pgf@zx=\dimen187
+\pgf@zy=\dimen188
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct
+.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen189
+\pgf@path@lasty=\dimen190
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.cod
+e.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen191
+\pgf@shorten@start@additional=\dimen192
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.t
+ex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box100
+\pgf@hbox=\box101
+\pgf@layerbox@main=\box102
+\pgf@picture@serial@count=\count293
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.
+code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen193
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformatio
+ns.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen194
+\pgf@pt@y=\dimen195
+\pgf@pt@temp=\dimen196
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.te
+x
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.
+tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessin
+g.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.t
+ex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen197
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.te
+x
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen198
+\pgf@sys@shading@range@num=\count294
+\pgf@shadingcount=\count295
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.te
+x
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code
+.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box103
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.t
+ex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.
+code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code
+.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
+x
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box104
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-6
+5.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen199
+\pgf@nodesepend=\dimen256
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-1
+8.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/opt/texlive/texdir/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks32
+\verbatim@line=\toks33
+\verbatim@in@stream=\read3
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box105
+\tcb@upperbox=\box106
+\tcb@lowerbox=\box107
+\tcb@phantombox=\box108
+\c@tcbbreakpart=\count296
+\c@tcblayer=\count297
+\c@tcolorbox@number=\count298
+\tcb@temp=\box109
+\tcb@temp=\box110
+\tcb@temp=\box111
+\tcb@temp=\box112
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count299
+\lst@gtempboxa=\box113
+\lst@token=\toks34
+\lst@length=\count300
+\lst@currlwidth=\dimen257
+\lst@column=\count301
+\lst@pos=\count302
+\lst@lostspace=\dimen258
+\lst@width=\dimen259
+\lst@newlines=\count303
+\lst@lineno=\count304
+\lst@maxwidth=\dimen260
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count305
+\lst@skipnumbers=\count306
+\lst@framebox=\box114
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count307
+\Gm@cntv=\count308
+\c@Gm@tempcnt=\count309
+\Gm@bindingoffset=\dimen261
+\Gm@wd@mp=\dimen262
+\Gm@odd@mp=\dimen263
+\Gm@even@mp=\dimen264
+\Gm@layoutwidth=\dimen265
+\Gm@layoutheight=\dimen266
+\Gm@layouthoffset=\dimen267
+\Gm@layoutvoffset=\dimen268
+\Gm@dimlist=\toks35
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/mathcomp/mathcomp.sty
+Package: mathcomp 2001/01/07 v0.1f (TBo)
+\symTC=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `TC' in version `bold'
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 25.
+LaTeX Font Info:    Redeclaring math symbol \dagger on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \ddagger on input line 48.
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/mathtools/empheq.sty
+Package: empheq 2017/03/31 v2.15 Emphasizing equations
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count310
+\calc@Bcount=\count311
+\calc@Adimen=\dimen269
+\calc@Bdimen=\dimen270
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count312
+\calc@Cskip=\skip57
+)
+\g_MT_multlinerow_int=\count313
+\l_MT_multwidth_dim=\dimen271
+\origjot=\skip58
+\l_MT_shortvdotswithinadjustabove_dim=\dimen272
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen273
+\l_MT_above_intertext_sep=\dimen274
+\l_MT_below_intertext_sep=\dimen275
+\l_MT_above_shortintertext_sep=\dimen276
+\l_MT_below_shortintertext_sep=\dimen277
+\xmathstrut@box=\box115
+\xmathstrut@dim=\dimen278
+)
+\l_EQ_equationtype_int=\count314
+\l_EQ_alignmentmode_int=\count315
+\l_EQ_totalwidth_dim=\dimen279
+\l_EQ_displaywidth_dim=\dimen280
+\l_EQ_temp_linewidth_dim=\dimen281
+\l_EQ_linewidth_dim=\dimen282
+\EmphEqdelimitershortfall=\dimen283
+\EmphEqdelimiterfactor=\count316
+\g_EQ_toptag_height_dim=\dimen284
+\g_EQ_bottomtag_depth_dim=\dimen285
+\g_EQ_toprow_height_dim=\dimen286
+\g_EQ_bottomrow_depth_dim=\dimen287
+\g_EQ_widesttag_dim=\dimen288
+\EQ_mathdisplay_box=\box116
+\EQ_tag_box=\box117
+\g_EQ_temprow_int=\count317
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/pbox/pbox.sty
+Package: pbox 2011/12/07 v1.2 Dynamic parboxes
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\pb@xlen=\skip59
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen289
+\lightrulewidth=\dimen290
+\cmidrulewidth=\dimen291
+\belowrulesep=\dimen292
+\belowbottomsep=\dimen293
+\aboverulesep=\dimen294
+\abovetopsep=\dimen295
+\cmidrulesep=\dimen296
+\cmidrulekern=\dimen297
+\defaultaddspace=\dimen298
+\@cmidla=\count318
+\@cmidlb=\count319
+\@aboverulesep=\dimen299
+\@belowrulesep=\dimen300
+\@thisruleclass=\count320
+\@lastruleclass=\count321
+\@thisrulewidth=\dimen301
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen302
+\ar@mcellbox=\box118
+\extrarowheight=\dimen303
+\NC@list=\toks36
+\extratabsurround=\skip60
+\backup@length=\skip61
+\ar@cellbox=\box119
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count322
+\float@exts=\toks37
+\float@box=\box120
+\@float@everytoks=\toks38
+\@floatcapt=\box121
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count323
+\l__pdf_internal_box=\box122
+)
+(./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+
+(/opt/texlive/texdir/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count324
+\scratchdimen=\dimen304
+\scratchbox=\box123
+\nofMPsegments=\count325
+\nofMParguments=\count326
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count327
+\MPscratchDim=\dimen305
+\MPnumerator=\count328
+\makeMPintoPDFobject=\count329
+\everyMPtoPDFconversion=\toks40
+) (/opt/texlive/texdir/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count330
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(0.28436pt, 844.47812pt, 0.28436pt)
+* v-part:(T,H,B)=(0.28436pt, 595.8008pt, 1.42271pt)
+* \paperwidth=845.04684pt
+* \paperheight=597.50787pt
+* \textwidth=844.47812pt
+* \textheight=595.8008pt
+* \oddsidemargin=-71.98563pt
+* \evensidemargin=-71.98563pt
+* \topmargin=-108.98563pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=9.0pt
+* \footskip=30.0pt
+* \marginparwidth=144.0pt
+* \marginparsep=10.0pt
+* \columnsep=1.42262pt
+* \skip\footins=28.0pt plus 16.0pt minus 8.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\Hy@linkcounter=\count331
+(./src/1_general_python/1_reference_aliasing.tex
+(./src/1_general_python/code/1_pointer_example.py)
+(./src/1_general_python/code/1_copy_example.py))
+(./src/1_general_python/2_data_types.tex
+(./src/1_general_python/code/2_data_types.py)
+(./src/1_general_python/code/2_type_conversion.py)
+(./src/1_general_python/2_1_type_hints.tex
+(./src/1_general_python/code/2_1_type_hints.py)))
+(./src/1_general_python/3_input_output.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(./src/1_general_python/code/3_output.py)
+(./src/1_general_python/code/3_input.py))
+(./src/1_general_python/4_control_flows.tex
+(./src/1_general_python/code/4_if_else.py)
+(./src/1_general_python/code/4_while.py)
+(./src/1_general_python/code/4_for_list.py)
+(./src/1_general_python/code/4_for_range.py))
+(./src/1_general_python/5_functions.tex
+(./src/1_general_python/5_1_declaration.tex
+(./src/1_general_python/code/5_1_declaration.py))
+(./src/1_general_python/5_2_default_args.tex
+(./src/1_general_python/code/5_2_default_args.py))
+(./src/1_general_python/5_3_global_local_variables.tex
+(./src/1_general_python/code/5_3_global_local.py)))
+(./src/2_algorithms/1_invariants.tex) (./src/2_algorithms/2_divide_conquer.tex
+Overfull \hbox (4.19064pt too wide) in paragraph at lines 2--1
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
+9.
+(/opt/texlive/texdir/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+))
+(./src/3_containers/1_container_operations.tex)
+(./src/3_containers/2_sequences.tex
+(./src/3_containers/2_1_sequence_operations.tex
+(./src/3_containers/code/2_1_enumeration.py)
+(./src/3_containers/code/2_1_zip.py)
+(./src/3_containers/code/2_1_loop_output.py)
+(./src/3_containers/code/2_1_slicing.py)) (./src/3_containers/2_2_list.tex
+(./src/3_containers/code/2_2_list_operation.py)
+<src/3_containers/images/selection_sort.png, id=4, 213.79875pt x 70.76437pt>
+File: src/3_containers/images/selection_sort.png Graphic file (type png)
+<use src/3_containers/images/selection_sort.png>
+Package pdftex.def Info: src/3_containers/images/selection_sort.png  used on in
+put line 39.
+(pdftex.def)             Requested size: 120.57285pt x 39.90742pt.
+
+(./src/3_containers/code/2_2_1_selection_sort.py)
+(./src/3_containers/code/2_2_1_insertion_sort.py)
+<src/3_containers/images/insertion_sort.png, id=6, 682.55pt x 679.53876pt>
+File: src/3_containers/images/insertion_sort.png Graphic file (type png)
+<use src/3_containers/images/insertion_sort.png>
+Package pdftex.def Info: src/3_containers/images/insertion_sort.png  used on in
+put line 54.
+(pdftex.def)             Requested size: 69.48233pt x 69.17102pt.
+<src/3_containers/images/bubble_sort.png, id=7, 558.085pt x 359.3425pt>
+File: src/3_containers/images/bubble_sort.png Graphic file (type png)
+<use src/3_containers/images/bubble_sort.png>
+Package pdftex.def Info: src/3_containers/images/bubble_sort.png  used on input
+ line 58.
+(pdftex.def)             Requested size: 163.49023pt x 105.2649pt.
+
+(./src/3_containers/code/2_2_1_bubble_sort.py)
+<src/3_containers/images/mergesort.png, id=9, 441.75038pt x 182.18062pt>
+File: src/3_containers/images/mergesort.png Graphic file (type png)
+<use src/3_containers/images/mergesort.png>
+Package pdftex.def Info: src/3_containers/images/mergesort.png  used on input l
+ine 63.
+(pdftex.def)             Requested size: 204.36203pt x 84.28223pt.
+
+(./src/3_containers/code/2_2_1_mergesort.py)
+<src/3_containers/images/quicksort.png, id=10, 323.70938pt x 292.59312pt>
+File: src/3_containers/images/quicksort.png Graphic file (type png)
+<use src/3_containers/images/quicksort.png>
+Package pdftex.def Info: src/3_containers/images/quicksort.png  used on input l
+ine 70.
+(pdftex.def)             Requested size: 204.36203pt x 184.71858pt.
+ [1
+
+{/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./src/3_con
+tainers/images/bubble_sort.png> <./src/3_containers/images/selection_sort.png> 
+<./src/3_containers/images/insertion_sort.png> <./src/3_containers/images/merge
+sort.png>]
+(./src/3_containers/code/2_2_1_quick_sort.py)
+<src/3_containers/images/linear_search.png, id=28, 292.59312pt x 80.3pt>
+File: src/3_containers/images/linear_search.png Graphic file (type png)
+<use src/3_containers/images/linear_search.png>
+Package pdftex.def Info: src/3_containers/images/linear_search.png  used on inp
+ut line 76.
+(pdftex.def)             Requested size: 163.49023pt x 44.86966pt.
+
+(./src/3_containers/code/2_2_2_linear_search.py)
+<src/3_containers/images/binary_search.png, id=30, 1204.5pt x 512.91624pt>
+File: src/3_containers/images/binary_search.png Graphic file (type png)
+<use src/3_containers/images/binary_search.png>
+Package pdftex.def Info: src/3_containers/images/binary_search.png  used on inp
+ut line 80.
+(pdftex.def)             Requested size: 163.49023pt x 69.61636pt.
+
+(./src/3_containers/code/2_2_2_binary_search.py))
+(./src/3_containers/2_3_tuple.tex) (./src/3_containers/2_4_range.tex)
+(./src/3_containers/2_5_string.tex
+(./src/3_containers/code/2_5_str_operations.py)))
+(./src/3_containers/3_collection.tex (./src/3_containers/3_1_set.tex
+(./src/3_containers/code/3_1_set_operations.py))
+(./src/3_containers/3_2_dict.tex
+LaTeX Font Info:    Trying to load font information for OMS+cmss on input line 
+3.
+LaTeX Font Info:    No file OMScmss.fd. on input line 3.
+
+
+LaTeX Font Warning: Font shape `OMS/cmss/bx/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 3.
+
+(./src/3_containers/code/3_2_initialise_dict.py)
+(./src/3_containers/code/3_2_dict_operations.py)
+(./src/3_containers/code/3_2_iterate_over_dict.py)))
+(./src/4_class/1_general.tex (./src/4_class/code/basic_class.py))
+(./src/4_class/2_private.tex (./src/4_class/code/private.py))
+(./src/4_class/3_inheritance.tex (./src/4_class/code/inheritance.py))
+(./src/4_class/4_magical_methods.tex) (./src/5_data_structure/1_fifo.tex
+<src/5_data_structure/images/fifo.png, id=32, 189.216pt x 41.391pt>
+File: src/5_data_structure/images/fifo.png Graphic file (type png)
+<use src/5_data_structure/images/fifo.png>
+Package pdftex.def Info: src/5_data_structure/images/fifo.png  used on input li
+ne 3.
+(pdftex.def)             Requested size: 163.49023pt x 35.76546pt.
+<src/5_data_structure/images/lifo.png, id=33, 90.3375pt x 72.27pt>
+File: src/5_data_structure/images/lifo.png Graphic file (type png)
+<use src/5_data_structure/images/lifo.png>
+Package pdftex.def Info: src/5_data_structure/images/lifo.png  used on input li
+ne 5.
+(pdftex.def)             Requested size: 102.18102pt x 81.74573pt.
+)
+(./src/5_data_structure/2_bst.tex
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+[]\OT1/cmss/m/n/7 ALV-Tree: bal-anced bi-nary search tree ($\OMS/cmss/bx/n/7 ^^
+@\OT1/cmr/m/n/7 1 \OMS/cmss/bx/n/7 ^^T
+ []
+
+(./src/5_data_structure/code/preorder.py)
+<src/5_data_structure/images/preorder.png, id=34, 67.671pt x 73.9125pt>
+File: src/5_data_structure/images/preorder.png Graphic file (type png)
+<use src/5_data_structure/images/preorder.png>
+Package pdftex.def Info: src/5_data_structure/images/preorder.png  used on inpu
+t line 27.
+(pdftex.def)             Requested size: 85.11833pt x 92.97797pt.
+
+(./src/5_data_structure/code/inorder.py)
+<src/5_data_structure/images/inorder.png, id=35, 67.671pt x 73.584pt>
+File: src/5_data_structure/images/inorder.png Graphic file (type png)
+<use src/5_data_structure/images/inorder.png>
+Package pdftex.def Info: src/5_data_structure/images/inorder.png  used on input
+ line 38.
+(pdftex.def)             Requested size: 85.11833pt x 92.56473pt.
+ [2 <./src/3_containers/images/linear_search.png> <./src/3_containers/images/bi
+nary_search.png> <./src/3_containers/images/quicksort.png> <./src/5_data_struct
+ure/images/fifo.png> <./src/5_data_structure/images/lifo.png>] (./src/5_data_st
+ructure/code/postorder.py)
+<src/5_data_structure/images/postorder.png, id=47, 67.671pt x 74.5695pt>
+File: src/5_data_structure/images/postorder.png Graphic file (type png)
+<use src/5_data_structure/images/postorder.png>
+Package pdftex.def Info: src/5_data_structure/images/postorder.png  used on inp
+ut line 48.
+(pdftex.def)             Requested size: 85.11833pt x 93.80444pt.
+<src/5_data_structure/images/bst.png, id=48, 104.1345pt x 75.2265pt>
+File: src/5_data_structure/images/bst.png Graphic file (type png)
+<use src/5_data_structure/images/bst.png>
+Package pdftex.def Info: src/5_data_structure/images/bst.png  used on input lin
+e 62.
+(pdftex.def)             Requested size: 100.1385pt x 72.34058pt.
+
+(./src/5_data_structure/code/bst_implementation.py)
+(./src/5_data_structure/code/bst_height.py)
+(./src/5_data_structure/code/bst_search.py)
+(./src/5_data_structure/code/bst_insert.py)
+<src/5_data_structure/images/symmetric_successor.png, id=49, 472.76625pt x 414.
+04688pt>
+File: src/5_data_structure/images/symmetric_successor.png Graphic file (type pn
+g)
+<use src/5_data_structure/images/symmetric_successor.png>
+Package pdftex.def Info: src/5_data_structure/images/symmetric_successor.png  u
+sed on input line 88.
+(pdftex.def)             Requested size: 100.1385pt x 87.6979pt.
+
+(./src/5_data_structure/code/bst_remove.py)) (./src/5_data_structure/3_heap.tex
+<src/5_data_structure/images/max_heap.png, id=51, 65.7pt x 50.2605pt>
+File: src/5_data_structure/images/max_heap.png Graphic file (type png)
+<use src/5_data_structure/images/max_heap.png>
+Package pdftex.def Info: src/5_data_structure/images/max_heap.png  used on inpu
+t line 9.
+(pdftex.def)             Requested size: 95.13127pt x 72.77997pt.
+<src/5_data_structure/images/max_heap_array.png, id=52, 667.59413pt x 121.95563
+pt>
+File: src/5_data_structure/images/max_heap_array.png Graphic file (type png)
+<use src/5_data_structure/images/max_heap_array.png>
+Package pdftex.def Info: src/5_data_structure/images/max_heap_array.png  used o
+n input line 12.
+(pdftex.def)             Requested size: 95.13127pt x 17.37698pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+<src/5_data_structure/images/heap_sift_up.png, id=53, 333.245pt x 161.60374pt>
+File: src/5_data_structure/images/heap_sift_up.png Graphic file (type png)
+<use src/5_data_structure/images/heap_sift_up.png>
+Package pdftex.def Info: src/5_data_structure/images/heap_sift_up.png  used on 
+input line 33.
+(pdftex.def)             Requested size: 204.36203pt x 99.10583pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+[]\OT1/cmss/m/n/7 Reestablishes Heap struc-ture, Used in 'In-sert'
+ []
+
+(./src/5_data_structure/code/heap_sift_up.py)
+<src/5_data_structure/images/heap_sift_down.png, id=54, 286.57062pt x 170.13562
+pt>
+File: src/5_data_structure/images/heap_sift_down.png Graphic file (type png)
+<use src/5_data_structure/images/heap_sift_down.png>
+Package pdftex.def Info: src/5_data_structure/images/heap_sift_down.png  used o
+n input line 39.
+(pdftex.def)             Requested size: 204.36203pt x 121.32932pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--40
+\OT1/cmss/m/n/7 If the par-ent value is smaller: ex-change the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--40
+\OT1/cmss/m/n/7 par-ent value with the greater chil-dren value
+ []
+
+(./src/5_data_structure/code/heap_sift_down.py)
+(./src/5_data_structure/code/heap_insert.py)
+<src/5_data_structure/images/heap_remove_max.png, id=55, 317.68687pt x 158.5925
+pt>
+File: src/5_data_structure/images/heap_remove_max.png Graphic file (type png)
+<use src/5_data_structure/images/heap_remove_max.png>
+Package pdftex.def Info: src/5_data_structure/images/heap_remove_max.png  used 
+on input line 47.
+(pdftex.def)             Requested size: 204.36203pt x 102.02396pt.
+
+(./src/5_data_structure/code/heap_remove_max.py)
+(./src/5_data_structure/code/heap_heapify.py)
+(./src/5_data_structure/code/heap_sort.py))
+(./src/5_data_structure/4_linked_list.tex
+<src/5_data_structure/images/linked_list.png, id=56, 194.472pt x 19.3815pt>
+File: src/5_data_structure/images/linked_list.png Graphic file (type png)
+<use src/5_data_structure/images/linked_list.png>
+Package pdftex.def Info: src/5_data_structure/images/linked_list.png  used on i
+nput line 6.
+(pdftex.def)             Requested size: 183.92458pt x 18.33038pt.
+
+(./src/5_data_structure/code/llist_implementation.py)
+(./src/5_data_structure/code/llist_traversal.py)
+(./src/5_data_structure/code/llist_search.py)
+(./src/5_data_structure/code/llist_insert.py)
+(./src/5_data_structure/code/llist_remove.py [3 <./src/5_data_structure/images/
+symmetric_successor.png> <./src/5_data_structure/images/linked_list.png> <./src
+/5_data_structure/images/preorder.png> <./src/5_data_structure/images/inorder.p
+ng> <./src/5_data_structure/images/postorder.png> <./src/5_data_structure/image
+s/bst.png> <./src/5_data_structure/images/max_heap.png> <./src/5_data_structure
+/images/max_heap_array.png> <./src/5_data_structure/images/heap_sift_up.png> <.
+/src/5_data_structure/images/heap_sift_down.png> <./src/5_data_structure/images
+/heap_remove_max.png>]) (./src/5_data_structure/code/llist_list_to_llist.py))
+(./src/5_data_structure/5_hash_table.tex
+<src/5_data_structure/images/hash_function.png, id=75, 314.17375pt x 240.9pt>
+File: src/5_data_structure/images/hash_function.png Graphic file (type png)
+<use src/5_data_structure/images/hash_function.png>
+Package pdftex.def Info: src/5_data_structure/images/hash_function.png  used on
+ input line 14.
+(pdftex.def)             Requested size: 95.13127pt x 72.94322pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+[][]
+ []
+
+<src/5_data_structure/images/probing.png, id=76, 145.04187pt x 76.78688pt>
+File: src/5_data_structure/images/probing.png Graphic file (type png)
+<use src/5_data_structure/images/probing.png>
+Package pdftex.def Info: src/5_data_structure/images/probing.png  used on input
+ line 24.
+(pdftex.def)             Requested size: 91.96228pt x 48.68648pt.
+<src/5_data_structure/images/chaining.png, id=77, 146.5475pt x 119.44624pt>
+File: src/5_data_structure/images/chaining.png Graphic file (type png)
+<use src/5_data_structure/images/chaining.png>
+Package pdftex.def Info: src/5_data_structure/images/chaining.png  used on inpu
+t line 24.
+(pdftex.def)             Requested size: 91.96228pt x 74.95444pt.
+) (./src/5_data_structure/6_quad_tree.tex
+Overfull \hbox (3.96252pt too wide) in paragraph at lines 19--1
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--1
+
+ []
+
+<src/5_data_structure/images/quadtree.png, id=78, 147.168pt x 143.883pt>
+File: src/5_data_structure/images/quadtree.png Graphic file (type png)
+<use src/5_data_structure/images/quadtree.png>
+Package pdftex.def Info: src/5_data_structure/images/quadtree.png  used on inpu
+t line 7.
+(pdftex.def)             Requested size: 102.18102pt x 99.90068pt.
+(./src/5_data_structure/code/quad_implementation.py)
+<src/5_data_structure/images/quad_divide.png, id=79, 264.99pt x 227.85126pt>
+File: src/5_data_structure/images/quad_divide.png Graphic file (type png)
+<use src/5_data_structure/images/quad_divide.png>
+Package pdftex.def Info: src/5_data_structure/images/quad_divide.png  used on i
+nput line 13.
+(pdftex.def)             Requested size: 122.61845pt x 105.43518pt.
+
+(./src/5_data_structure/code/quad_insert.py)
+<src/5_data_structure/images/quadtree_rectangle.png, id=80, 572.63937pt x 324.2
+1124pt>
+File: src/5_data_structure/images/quadtree_rectangle.png Graphic file (type png
+)
+<use src/5_data_structure/images/quadtree_rectangle.png>
+Package pdftex.def Info: src/5_data_structure/images/quadtree_rectangle.png  us
+ed on input line 17.
+(pdftex.def)             Requested size: 204.36203pt x 115.7018pt.
+
+(./src/5_data_structure/code/quad_search.py))
+(./src/6_runtime_analysis/1_runtime.tex
+(./src/6_runtime_analysis/code/2_time_cost.py)
+Overfull \hbox (7.19574pt too wide) detected at line 54
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+) (./src/6_runtime_analysis/2_examples.tex
+Underfull \hbox (badness 10000) in alignment at lines 4--16
+[][][]
+ []
+
+
+Underfull \hbox (badness 6032) in paragraph at lines 3--17
+[]\OT1/cmss/m/n/7 Search el-e-ment: see 6.2.3[] Search Al-go-rithms on Lists
+ []
+
+
+Overfull \hbox (0.81316pt too wide) in alignment at lines 20--30
+[][][] 
+ []
+
+
+Overfull \hbox (0.81316pt too wide) in alignment at lines 33--43
+[][][] 
+ []
+
+
+Overfull \hbox (0.81316pt too wide) in alignment at lines 46--56
+[][][] 
+ []
+
+[4 <./src/5_data_structure/images/hash_function.png> <./src/5_data_structure/im
+ages/probing.png> <./src/5_data_structure/images/chaining.png> <./src/5_data_st
+ructure/images/quadtree.png> <./src/5_data_structure/images/quad_divide.png> <.
+/src/5_data_structure/images/quadtree_rectangle.png>]
+Overfull \hbox (0.81628pt too wide) in alignment at lines 59--65
+[][][] 
+ []
+
+
+Underfull \hbox (badness 7308) in paragraph at lines 72--72
+[]|\OT1/cmss/m/n/7 Pivot al-ways min/-max
+ []
+
+
+Overfull \hbox (0.81628pt too wide) in alignment at lines 68--78
+[][][] 
+ []
+
+
+Overfull \hbox (0.81628pt too wide) in alignment at lines 82--88
+[][][] 
+ []
+
+
+Overfull \hbox (0.81316pt too wide) in alignment at lines 93--103
+[][][] 
+ []
+
+
+Overfull \hbox (3.27304pt too wide) in paragraph at lines 110--111
+[]|$\OT1/cmr/m/n/7 ^^B([](\OML/cmm/m/it/7 n\OT1/cmr/m/n/7 ))$| 
+ []
+
+
+Overfull \hbox (3.27304pt too wide) in paragraph at lines 112--113
+[]|$\OT1/cmr/m/n/7 ^^B([](\OML/cmm/m/it/7 n\OT1/cmr/m/n/7 ))$| 
+ []
+
+
+Overfull \hbox (0.81316pt too wide) in alignment at lines 106--116
+[][][] 
+ []
+
+
+Overfull \hbox (3.27304pt too wide) in paragraph at lines 126--127
+[]|$\OT1/cmr/m/n/7 ^^B([](\OML/cmm/m/it/7 n\OT1/cmr/m/n/7 ))$| 
+ []
+
+
+Overfull \hbox (0.81316pt too wide) in alignment at lines 120--130
+[][][] 
+ []
+
+
+Overfull \hbox (3.27304pt too wide) in paragraph at lines 139--140
+[]|$\OT1/cmr/m/n/7 ^^B([](\OML/cmm/m/it/7 n\OT1/cmr/m/n/7 ))$| 
+ []
+
+
+Overfull \hbox (0.81316pt too wide) in alignment at lines 133--143
+[][][] 
+ []
+
+
+Overfull \hbox (0.81628pt too wide) in alignment at lines 147--153
+[][][] 
+ []
+
+
+Overfull \hbox (0.81628pt too wide) in alignment at lines 156--162
+[][][] 
+ []
+
+
+Overfull \hbox (0.81628pt too wide) in alignment at lines 166--172
+[][][] 
+ []
+
+
+Overfull \hbox (0.81628pt too wide) in alignment at lines 175--181
+[][][] 
+ []
+
+
+Overfull \hbox (0.81628pt too wide) in alignment at lines 184--190
+[][][] 
+ []
+
+
+Overfull \hbox (0.81628pt too wide) in alignment at lines 194--200
+[][][] 
+ []
+
+
+Overfull \hbox (0.67441pt too wide) in alignment at lines 203--219
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
+[]|\OT1/cmss/m/n/7 Worst
+ []
+
+
+Overfull \hbox (0.81316pt too wide) in alignment at lines 222--233
+[][][] 
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 222--53
+
+ []
+
+(./src/7_programming_concepts/1_compiled_interpreted.tex)
+(./src/7_programming_concepts/2_static_dynamic.tex)
+(./src/7_programming_concepts/3_generic.tex)
+(./src/7_programming_concepts/4_functional.tex
+(./src/7_programming_concepts/code/functional_example.py)
+(./src/7_programming_concepts/code/lambda.py)
+(./src/7_programming_concepts/code/map.py)
+(./src/7_programming_concepts/code/filter.py)
+(./src/7_programming_concepts/code/reduce.py)) (./src/8_dp/1_general.tex
+<src/8_dp/images/dp.png, id=94, 189.216pt x 79.1685pt>
+File: src/8_dp/images/dp.png Graphic file (type png)
+<use src/8_dp/images/dp.png>
+Package pdftex.def Info: src/8_dp/images/dp.png  used on input line 9.
+(pdftex.def)             Requested size: 204.36203pt x 85.51035pt.
+
+(./src/8_dp/code/fibonacci.py)) (./src/8_ml/1_general.tex
+<src/8_ml/images/ml_overview.png, id=95, 578.16pt x 328.22626pt>
+File: src/8_ml/images/ml_overview.png Graphic file (type png)
+<use src/8_ml/images/ml_overview.png>
+Package pdftex.def Info: src/8_ml/images/ml_overview.png  used on input line 7.
+
+(pdftex.def)             Requested size: 204.36203pt x 116.01779pt.
+
+(./src/8_ml/code/ml_example.py)) (./src/8_ml/2_models.tex
+<src/8_ml/images/decision_tree.png, id=96, 189.216pt x 72.927pt>
+File: src/8_ml/images/decision_tree.png Graphic file (type png)
+<use src/8_ml/images/decision_tree.png>
+Package pdftex.def Info: src/8_ml/images/decision_tree.png  used on input line 
+4.
+(pdftex.def)             Requested size: 204.36203pt x 78.76886pt.
+
+(./src/8_ml/code/decision_tree_classifier.py)
+<src/8_ml/images/linear_regression.png, id=97, 432.61626pt x 332.74312pt>
+File: src/8_ml/images/linear_regression.png Graphic file (type png)
+<use src/8_ml/images/linear_regression.png>
+Package pdftex.def Info: src/8_ml/images/linear_regression.png  used on input l
+ine 10.
+(pdftex.def)             Requested size: 163.49023pt x 125.74811pt.
+ [5 <./src/8_dp/images/dp.png> <./src/8_ml/images/ml_overview.png>] (./src/8_ml
+/code/linear_regression.py)
+<src/8_ml/images/linear_classifier.png, id=103, 433.62pt x 289.08pt>
+File: src/8_ml/images/linear_classifier.png Graphic file (type png)
+<use src/8_ml/images/linear_classifier.png>
+Package pdftex.def Info: src/8_ml/images/linear_classifier.png  used on input l
+ine 14.
+(pdftex.def)             Requested size: 163.49023pt x 108.9958pt.
+<src/8_ml/images/neural_network_regression_vs_classifier.png, id=104, 1555.3106
+2pt x 536.0025pt>
+File: src/8_ml/images/neural_network_regression_vs_classifier.png Graphic file 
+(type png)
+<use src/8_ml/images/neural_network_regression_vs_classifier.png>
+Package pdftex.def Info: src/8_ml/images/neural_network_regression_vs_classifie
+r.png  used on input line 18.
+(pdftex.def)             Requested size: 204.36203pt x 70.42703pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+(./src/8_ml/code/mlpregressor.py)
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+(./src/8_ml/code/mlpclassifier.py)
+<src/8_ml/images/convolutional.png, id=105, 475.7775pt x 581.67313pt>
+File: src/8_ml/images/convolutional.png Graphic file (type png)
+<use src/8_ml/images/convolutional.png>
+Package pdftex.def Info: src/8_ml/images/convolutional.png  used on input line 
+32.
+(pdftex.def)             Requested size: 163.49023pt x 199.87863pt.
+) (./src/8_ml/3_test.tex)
+(./src/8_ml/4_overfitting_cross_validation.tex
+<src/8_ml/images/cross_validation.png, id=106, 730.73pt x 313.67188pt>
+File: src/8_ml/images/cross_validation.png Graphic file (type png)
+<use src/8_ml/images/cross_validation.png>
+Package pdftex.def Info: src/8_ml/images/cross_validation.png  used on input li
+ne 12.
+(pdftex.def)             Requested size: 204.36203pt x 87.72221pt.
+) (./src/8_ml/5_encoding.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--1
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 12--22
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 40--52
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 58--70
+[][][] 
+ []
+
+) (./src/8_ml/6_clustering.tex
+<src/8_ml/images/cluster_centroid_placing.png, id=107, 225.84375pt x 163.20975p
+t>
+File: src/8_ml/images/cluster_centroid_placing.png Graphic file (type png)
+<use src/8_ml/images/cluster_centroid_placing.png>
+Package pdftex.def Info: src/8_ml/images/cluster_centroid_placing.png  used on 
+input line 4.
+(pdftex.def)             Requested size: 110.35411pt x 79.74933pt.
+<src/8_ml/images/cluster_assign_points.png, id=108, 228.855pt x 156.585pt>
+File: src/8_ml/images/cluster_assign_points.png Graphic file (type png)
+<use src/8_ml/images/cluster_assign_points.png>
+Package pdftex.def Info: src/8_ml/images/cluster_assign_points.png  used on inp
+ut line 10.
+(pdftex.def)             Requested size: 110.35411pt x 75.504pt.
+<src/8_ml/images/cluster_move_centroids.png, id=109, 222.8325pt x 152.06813pt>
+File: src/8_ml/images/cluster_move_centroids.png Graphic file (type png)
+<use src/8_ml/images/cluster_move_centroids.png>
+Package pdftex.def Info: src/8_ml/images/cluster_move_centroids.png  used on in
+put line 17.
+(pdftex.def)             Requested size: 110.35411pt x 75.3099pt.
+
+Overfull \hbox (12.13564pt too wide) in paragraph at lines 2--19
+[] 
+ []
+
+) (./src/8_ml/7_pca.tex
+<src/8_ml/images/pca.png, id=110, 436.63126pt x 189.70876pt>
+File: src/8_ml/images/pca.png Graphic file (type png)
+<use src/8_ml/images/pca.png>
+Package pdftex.def Info: src/8_ml/images/pca.png  used on input line 3.
+(pdftex.def)             Requested size: 143.0528pt x 62.1525pt.
+) [6 <./src/8_ml/images/pca.png> <./src/8_ml/images/decision_tree.png> <./src/8
+_ml/images/linear_regression.png> <./src/8_ml/images/linear_classifier.png> <./
+src/8_ml/images/neural_network_regression_vs_classifier.png> <./src/8_ml/images
+/convolutional.png> <./src/8_ml/images/cross_validation.png> <./src/8_ml/images
+/cluster_centroid_placing.png> <./src/8_ml/images/cluster_assign_points.png> <.
+/src/8_ml/images/cluster_move_centroids.png>]
+(./src/9_numpy/1_import.tex) (./src/9_numpy/2_py_vs_np_array.tex
+Underfull \hbox (badness 10000) in alignment at lines 3--13
+[][] 
+ []
+
+) (./src/9_numpy/3_declaration.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
+[]\OT1/cmss/m/n/7 Numpy ar-rays are like Python lists. Be-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
+\OT1/cmss/m/n/7 low is a sum-mary of the key dif-fer-ences.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
+
+ []
+
+(./src/9_numpy/code/3_sequence.py) (./src/9_numpy/code/3_random.py)
+(./src/9_numpy/code/3_arange.py) (./src/9_numpy/code/3_linspace.py))
+(./src/9_numpy/4_operations.tex (./src/9_numpy/code/4_common_operations.py)
+(./src/9_numpy/code/4_statistics.py) (./src/9_numpy/code/4_math_operations.py)
+(./src/9_numpy/code/4_filter.py)) (./src/10_pandas/1_import.tex)
+(./src/10_pandas/2_create_dataframe.tex) (./src/10_pandas/3_operations.tex
+<src/10_pandas/images/pd_dataframe_index.png, id=127, 225.84375pt x 208.3785pt>
+
+File: src/10_pandas/images/pd_dataframe_index.png Graphic file (type png)
+<use src/10_pandas/images/pd_dataframe_index.png>
+Package pdftex.def Info: src/10_pandas/images/pd_dataframe_index.png  used on i
+nput line 7.
+(pdftex.def)             Requested size: 91.96228pt x 84.85068pt.
+<src/10_pandas/images/pd_dataframe_time.png, id=128, 352.31625pt x 422.17725pt>
+
+File: src/10_pandas/images/pd_dataframe_time.png Graphic file (type png)
+<use src/10_pandas/images/pd_dataframe_time.png>
+Package pdftex.def Info: src/10_pandas/images/pd_dataframe_time.png  used on in
+put line 7.
+(pdftex.def)             Requested size: 73.5701pt x 88.15736pt.
+
+(./src/10_pandas/code/change_index.py)
+Overfull \hbox (4.36252pt too wide) in alignment at lines 4--9
+[][] 
+ []
+
+(./src/10_pandas/code/access_elements.py)) (./src/11_matplotlib/1_import.tex)
+(./src/11_matplotlib/2_line_plots.tex
+(./src/11_matplotlib/code/2_line_scatter.py)
+<src/11_matplotlib/images/line_plot.png, id=129, 410.4936pt x 298.4751pt>
+File: src/11_matplotlib/images/line_plot.png Graphic file (type png)
+<use src/11_matplotlib/images/line_plot.png>
+Package pdftex.def Info: src/11_matplotlib/images/line_plot.png  used on input 
+line 7.
+(pdftex.def)             Requested size: 100.1385pt x 72.8105pt.
+<src/11_matplotlib/images/scatter_plot.png, id=130, 410.4936pt x 298.4751pt>
+File: src/11_matplotlib/images/scatter_plot.png Graphic file (type png)
+<use src/11_matplotlib/images/scatter_plot.png>
+Package pdftex.def Info: src/11_matplotlib/images/scatter_plot.png  used on inp
+ut line 8.
+(pdftex.def)             Requested size: 100.1385pt x 72.8105pt.
+)
+(./src/11_matplotlib/4_histogram_plots.tex
+(./src/11_matplotlib/code/4_histogram.py)
+<src/11_matplotlib/images/histogram_plot.png, id=131, 392.4261pt x 298.4751pt>
+File: src/11_matplotlib/images/histogram_plot.png Graphic file (type png)
+<use src/11_matplotlib/images/histogram_plot.png>
+Package pdftex.def Info: src/11_matplotlib/images/histogram_plot.png  used on i
+nput line 7.
+(pdftex.def)             Requested size: 100.1385pt x 76.1625pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--9
+[]\OT1/cmss/m/n/7 To plot a his-togram, use the fol-low-ing tem-plate:
+ []
+
+) (./src/11_matplotlib/5_styling.tex (./src/11_matplotlib/code/5_styling.py))
+[7 <./src/10_pandas/images/pd_dataframe_index.png> <./src/10_pandas/images/pd_d
+ataframe_time.png> <./src/11_matplotlib/images/line_plot.png> <./src/11_matplot
+lib/images/scatter_plot.png> <./src/11_matplotlib/images/histogram_plot.png>]
+(./main.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 18394 strings out of 476024
+ 368523 string characters out of 5792021
+ 2938388 words of memory out of 5000000
+ 38078 multiletter control sequences out of 15000+600000
+ 524236 words of font info for 75 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 116i,18n,118p,458b,2035s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</o
+pt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></op
+t/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></opt/texl
+ive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></opt/texlive/te
+xdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></opt/texlive/texdir/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/texlive/texdir/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmss10.pfb></opt/texlive/texdir/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmss8.pfb></opt/texlive/texdir/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmssbx10.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy5.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmtt8.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/symbols
+/msbm7.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/cm-super/sfss0700
+.pfb>
+Output written on main.pdf (7 pages, 3951924 bytes).
+PDF statistics:
+ 201 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 264 words of extra memory for PDF output out of 10000 (max. 10000000)
+

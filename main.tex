@@ -1,0 +1,90 @@
+\documentclass[numerate]{cheatsheet}
+\usepackage{bm}
+\usepackage{textcomp, mathcomp}
+\usepackage{empheq}
+\usepackage{pbox}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{float}
+
+\lstset{style=python_style}
+
+\doctitle{Informatik 2 Cheatsheet}
+\author{Julian Lotzer – jlotzer@student.ethz.ch\\ 
+Daniel Steinhauser – dsteinhauser@student.ethz.ch\\
+Modified by:
+Christian Leser - cleser@ethz.ch
+\\ \vspace*{-0.2em}}
+
+\begin{document}
+\section{General Python} %1
+	\input{src/1_general_python/1_reference_aliasing.tex}
+    \input{src/1_general_python/2_data_types.tex}
+    \input{src/1_general_python/3_input_output.tex}
+    \input{src/1_general_python/4_control_flows.tex}
+    \input{src/1_general_python/5_functions.tex}
+
+\section{Algorithms} %2
+    \input{src/2_algorithms/1_invariants.tex}
+    \input{src/2_algorithms/2_divide_conquer.tex}
+
+\section{Python Containers} %3
+    \input{src/3_containers/1_container_operations.tex}
+    \input{src/3_containers/2_sequences.tex}
+    \input{src/3_containers/3_collection.tex}
+
+\section{Python Classes} %4
+    \input{src/4_class/1_general.tex}
+    \input{src/4_class/2_private.tex}
+    \input{src/4_class/3_inheritance.tex}
+    \input{src/4_class/4_magical_methods.tex}
+
+\section{Data Structures} %5
+    \input{src/5_data_structure/1_fifo.tex}
+    \input{src/5_data_structure/2_bst.tex}
+    \input{src/5_data_structure/3_heap.tex}
+    \input{src/5_data_structure/4_linked_list.tex}
+    \input{src/5_data_structure/5_hash_table.tex}
+    \input{src/5_data_structure/6_quad_tree.tex}
+
+\section{Runtime analysis} %6
+    \input{src/6_runtime_analysis/1_runtime.tex}
+    \input{src/6_runtime_analysis/2_examples.tex}
+
+\section{Programming Concepts} %7
+    \input{src/7_programming_concepts/1_compiled_interpreted.tex}
+    \input{src/7_programming_concepts/2_static_dynamic.tex}
+    \input{src/7_programming_concepts/3_generic.tex}
+    \input{src/7_programming_concepts/4_functional.tex}
+
+\section{Dynamic Programming (DP)} %8
+    \input{src/8_dp/1_general.tex}
+
+\section{Machine Learning (ML)} %8 -> 9
+    \input{src/8_ml/1_general.tex}
+    \input{src/8_ml/2_models.tex}
+    \input{src/8_ml/3_test.tex}
+    \input{src/8_ml/4_overfitting_cross_validation.tex}
+    \input{src/8_ml/5_encoding.tex}
+    \input{src/8_ml/6_clustering.tex}
+    \input{src/8_ml/7_pca.tex}
+
+\newpage
+\section{Numpy} %9 -> 10
+    \input{src/9_numpy/1_import.tex}
+    \input{src/9_numpy/2_py_vs_np_array.tex}
+    \input{src/9_numpy/3_declaration.tex}
+    \input{src/9_numpy/4_operations.tex}
+
+\section{Pandas} %10 -> 11
+    \input{src/10_pandas/1_import.tex}
+    \input{src/10_pandas/2_create_dataframe.tex}
+    \input{src/10_pandas/3_operations.tex}
+
+\section{Matplotlib} %11 -> 12
+    \input{src/11_matplotlib/1_import.tex}
+    \input{src/11_matplotlib/2_line_plots.tex}
+    \input{src/11_matplotlib/4_histogram_plots.tex}
+    \input{src/11_matplotlib/5_styling.tex}
+
+\end{document}

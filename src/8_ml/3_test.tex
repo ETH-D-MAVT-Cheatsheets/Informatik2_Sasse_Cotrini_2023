@@ -1,0 +1,18 @@
+\subsection{Test and Validate}
+{\centering \underline{\textbf{Accuracy score}} \par}
+$\frac{\# \text{correctly classified}}{\# \text{total}}$. 1 is the best score, 0 is the worst.
+\begin{lstlisting}
+from sklearn.metrics import accuracy_score
+\end{lstlisting}
+
+{\centering \underline{\textbf{R2 score}} \par}
+1 is the best score, the more negative the worse.
+\begin{lstlisting}
+from sklearn.metrics import r2_score
+\end{lstlisting}
+
+{\centering \underline{\textbf{Mean Squared Error (MSE)}} \par}
+0 is the best score. The bigger the worse.
+\begin{lstlisting}
+from sklearn.metrics import mean_squared_loss
+\end{lstlisting}

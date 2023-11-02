@@ -1,0 +1,23 @@
+\subsubsection{String (immutable)}
+{\centering\underline{\textbf{Initialise a string with ""}} \par}
+\begin{lstlisting}
+s = "hello" #s ->  'h' 'e' 'l' 'l' 'o'
+#you can use both " or ' for strings 
+\end{lstlisting}
+
+{\centering\underline{\textbf{Common String Operations}} \par}
+\lstinputlisting{src/3_containers/code/2_5_str_operations.py}
+Example: check if s is a string with content:
+\begin{lstlisting}
+type(s) == str and len(s.strip()) #False if empty
+\end{lstlisting}
+Example: convert a string to a list of words:
+\begin{lstlisting}
+s = "Hello World"
+w = s.split() #-> w = ['Hello', 'World']
+s.split(seperator, maxsplit) 
+#seperator and maxsplit are optional
+#s.split() -> split at all whitespaces
+#separator = ", " -> split at every ", "
+#maxsplit = 10 -> split only at first 10 separators
+\end{lstlisting}

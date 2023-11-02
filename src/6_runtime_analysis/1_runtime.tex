@@ -1,0 +1,82 @@
+\subsection{Runtime analysis}
+    \subsubsection{upper, lower and tight bound}
+        To measure the performance of an algorithm, we use big O notation.
+        Let g be the relationship time vs input size for an algorithm.
+        
+        \begin{itemize}
+            \item Upper bound (If g does not grow faster than c*f):
+            $g=\mathcal{O}(f)$
+            \item Tight Bound (If g grows about the same as c*f):
+            $g= \Theta(f)$
+            \item Lower Bound (If g does not grow slower than c*f):
+            $g= \Omega(f)$
+        \end{itemize}
+    
+%       Mathematical definitions:
+%       \begin{align*}
+%           \mathcal{O}(g) =& \{f: \mathbb{N} \rightarrow \mathbb{R} | \exists c > 0, \exists n_0 \in \mathbb{N}: \forall n \geq n_0 : \\
+%                           & 0 \leq f(n) \leq c \cdot g(n) \}\\
+%           \Theta(g) =     & \{f: \mathbb{N} \rightarrow \mathbb{R} | \exists c > 0, \exists n_0 \in \mathbb{N}: \forall n \geq n_0 : \\
+%                           & 0 \leq \frac{1}{c} \cdot g(n) \leq f(n) \leq c \cdot g(n) \}\\
+%           \Omega(g) =     & \{f: \mathbb{N} \rightarrow \mathbb{R} | \exists c > 0, \exists n_0 \in \mathbb{N}: \forall n \geq n_0 : \\
+%                           & 0 \leq c \cdot g(n) \leq f(n) \}
+%       \end{align*}
+
+    \subsubsection{Asymptotic behaviour of funcitons}
+        For all functions: $\lim\limits_{n \rightarrow \infty}$
+        \begin{align*}
+            &log(n) < \sqrt[a]{n} < n < n \cdot \log(n) < n^2 < a^n < n! < n^n\\
+            &n = \mathcal{O}(n^2) \rightarrow f(n) = \mathcal{O}(g(n)) \rightarrow \lim\limits_{n \rightarrow \infty} \frac{f(n)}{g(n)} \leq C, C \in \mathbb{R}
+        \end{align*}
+        Useful conversions:\\
+        \begin{minipage}{0.29\linewidth}
+            \begin{align*}
+                B^a \cdot B^b =& \; B^{a + b}\\
+                \frac{B^a}{B^b} =& \; B^{a - b}\\
+                (B^a)^b =& \; B^{a \cdot b}\\
+            \end{align*}
+        \end{minipage}
+        \begin{minipage}{0.69\linewidth}
+            \begin{align*}
+                \log_B (a \cdot b ) =& \; \log_B (a) + \log_B (b)\\
+                \log_B \left( \frac{a}{b} \right) =& \; \log_B (a) - \log_B (b)\\
+                \log_B (a^r) =& \; r \cdot \log_B (a)\\
+            \end{align*}
+        \end{minipage}
+    
+    \subsubsection{Code Runtime Analysis}
+        Assumptions of 'time cost':
+        \lstinputlisting{src/6_runtime_analysis/code/2_time_cost.py}
+
+        Example of runtime analysis on selection sort:
+        \begin{align*}
+            T(n) = 1 + \sum_{i = 0}^{n-1} \left( 1 + \left(\sum_{j = i+1}^{n-1} 2 \right) + 1\right) = \frac{n (n-1)}{2} = \Theta(n^2)
+        \end{align*}
+        
+        {\centering\underline{\textbf{Useful Sums}} \par}
+        \begin{align*}
+            \sum_{i = 0}^{n-1} 1                &= n                            &= \Theta(n)\\
+            \sum_{i = 0}^{n} i                  &= \frac{n \cdot (n + 1)}{2}    &= \Theta(n^2)\\
+            \sum_{i = 0}^{n} i^2                &= \frac{1}{6} n (n+1) (2n + 1) &= \Theta(n^3)\\
+            \sum_{i = 0}^{n} \sum_{j = 0}^{i} j &= \frac{1}{12} n (n+1) (2n +4) &= \Theta(n^3)
+        \end{align*}
+
+        {\centering\underline{\textbf{Telescoping (recursive code)}} \par}
+            Example: Binary search\\
+            \begin{enumerate}
+                \item Find cases
+                \item Find general expression for $T(n)$
+                \item Find condition for base case $T(1)$
+            \end{enumerate}
+            \begin{align*}
+                1. & T(n) &= 
+                \begin{cases}
+                    d                               & n = 1\\
+                    T\left(\frac{n}{2}\right) + c   & n > 1
+                \end{cases}\\
+                 & T(\frac{n}{2}) &= T(\frac{n}{4}) + c\\
+                2. & \Rightarrow T(n) &= T(\frac{n}{2^i}) + i \cdot c\\
+                 & T(\frac{n}{n}) &= T(1) = d\\
+                3. & \Rightarrow 2^i = n &\Rightarrow i = \log(n)\\
+                 & \Rightarrow T(n) &= d + \log(n) \cdot c = \Theta(\log(n)) 
+            \end{align*}

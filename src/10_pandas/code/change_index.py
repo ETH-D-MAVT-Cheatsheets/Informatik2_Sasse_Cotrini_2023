@@ -1,0 +1,1 @@
+climate2 = climate.set_index("time") #creates copy
